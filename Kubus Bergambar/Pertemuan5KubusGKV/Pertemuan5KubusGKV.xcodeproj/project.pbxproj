@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58B8A342DA0332A0005E886 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B8A332DA0332A0005E886 /* OpenGL.framework */; };
+		B58B8A362DA0332E0005E886 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B8A352DA0332E0005E886 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B58B8A262DA033230005E886 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5532BAD2DA0383600EF3734 /* contoh 2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "contoh 2.bmp"; sourceTree = "<group>"; };
+		B5532BAE2DA0383600EF3734 /* contoh1 2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "contoh1 2.bmp"; sourceTree = "<group>"; };
+		B5532BAF2DA0383600EF3734 /* contoh2 2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "contoh2 2.bmp"; sourceTree = "<group>"; };
+		B5532BB02DA0383600EF3734 /* contoh3 2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "contoh3 2.bmp"; sourceTree = "<group>"; };
+		B5532BB12DA0383600EF3734 /* contoh4 2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "contoh4 2.bmp"; sourceTree = "<group>"; };
+		B5532BB22DA0383600EF3734 /* contoh5 2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "contoh5 2.bmp"; sourceTree = "<group>"; };
+		B58B8A282DA033230005E886 /* Pertemuan5KubusGKV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pertemuan5KubusGKV; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58B8A332DA0332A0005E886 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B58B8A352DA0332E0005E886 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B58B8A2A2DA033230005E886 /* Pertemuan5KubusGKV */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Pertemuan5KubusGKV;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58B8A252DA033230005E886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B8A362DA0332E0005E886 /* GLUT.framework in Frameworks */,
+				B58B8A342DA0332A0005E886 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58B8A1F2DA033230005E886 = {
+			isa = PBXGroup;
+			children = (
+				B58B8A2A2DA033230005E886 /* Pertemuan5KubusGKV */,
+				B58B8A322DA0332A0005E886 /* Frameworks */,
+				B58B8A292DA033230005E886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58B8A292DA033230005E886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58B8A282DA033230005E886 /* Pertemuan5KubusGKV */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58B8A322DA0332A0005E886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58B8A352DA0332E0005E886 /* GLUT.framework */,
+				B58B8A332DA0332A0005E886 /* OpenGL.framework */,
+				B5532BAD2DA0383600EF3734 /* contoh 2.bmp */,
+				B5532BAE2DA0383600EF3734 /* contoh1 2.bmp */,
+				B5532BAF2DA0383600EF3734 /* contoh2 2.bmp */,
+				B5532BB02DA0383600EF3734 /* contoh3 2.bmp */,
+				B5532BB12DA0383600EF3734 /* contoh4 2.bmp */,
+				B5532BB22DA0383600EF3734 /* contoh5 2.bmp */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58B8A272DA033230005E886 /* Pertemuan5KubusGKV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58B8A2F2DA033230005E886 /* Build configuration list for PBXNativeTarget "Pertemuan5KubusGKV" */;
+			buildPhases = (
+				B58B8A242DA033230005E886 /* Sources */,
+				B58B8A252DA033230005E886 /* Frameworks */,
+				B58B8A262DA033230005E886 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B58B8A2A2DA033230005E886 /* Pertemuan5KubusGKV */,
+			);
+			name = Pertemuan5KubusGKV;
+			packageProductDependencies = (
+			);
+			productName = Pertemuan5KubusGKV;
+			productReference = B58B8A282DA033230005E886 /* Pertemuan5KubusGKV */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58B8A202DA033230005E886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B58B8A272DA033230005E886 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = B58B8A232DA033230005E886 /* Build configuration list for PBXProject "Pertemuan5KubusGKV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58B8A1F2DA033230005E886;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B58B8A292DA033230005E886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58B8A272DA033230005E886 /* Pertemuan5KubusGKV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58B8A242DA033230005E886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B58B8A2D2DA033230005E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B58B8A2E2DA033230005E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B58B8A302DA033230005E886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B58B8A312DA033230005E886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58B8A232DA033230005E886 /* Build configuration list for PBXProject "Pertemuan5KubusGKV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58B8A2D2DA033230005E886 /* Debug */,
+				B58B8A2E2DA033230005E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58B8A2F2DA033230005E886 /* Build configuration list for PBXNativeTarget "Pertemuan5KubusGKV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58B8A302DA033230005E886 /* Debug */,
+				B58B8A312DA033230005E886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58B8A202DA033230005E886 /* Project object */;
+}
